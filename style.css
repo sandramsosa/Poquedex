@@ -69,6 +69,11 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+@media screen and (min-width: 470px) {
+  .nav img{
+    width: 100px;
+  }
+}
 /*formato de las tarjetas*/
 .pokemon{
   border-radius: 1rem;
